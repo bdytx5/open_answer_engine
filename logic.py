@@ -189,7 +189,7 @@
 #             "messages": [
 #                 {
 #                     "role": "user",
-#                     "content": f"Do we need a web search to answer the question: {query}? usually questions that are asking about time related details or new inforamtion that might be in you initial training set will require a web search. Also information that could be subject to change is also a good to double check with search. Respond with 'yes' or 'no'."
+#                     "content": f"Do we need a web search to answer the question: {query}? usually questions that are asking about time related details or new information that might be in you initial training set will require a web search. Also information that could be subject to change is also a good to double check with search. Respond with 'yes' or 'no'."
 #                 }
 #             ]
 #         }
@@ -404,7 +404,7 @@ class Model:
             "messages": [
                 {
                     "role": "user",
-                    "content": f"Do we need a web search to answer the question: {query}? usually questions that are asking about time related details or new inforamtion that might be in you initial training set will require a web search. Also information that could be subject to change is also a good to double check with search. Respond with 'yes' or 'no'."
+                    "content": f"Do we need a web search to answer the question: {query}? usually questions that are asking about time related details or new information that might be in you initial training set will require a web search. Also information that could be subject to change is also a good to double check with search. Respond with 'yes' or 'no'."
                 }
             ]
         }
