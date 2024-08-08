@@ -19,7 +19,7 @@ import weave
 import requests
 import json
 import subprocess
-
+gcp_proj = "your project id"
 
 weave.init("answer_engine")
 
@@ -129,7 +129,7 @@ class Search:
     @staticmethod
     def decide_search(query):
         # Instantiate the model to decide if a web search is needed
-        model = Model(endpoint="us-central1-aiplatform.googleapis.com", region="us-central1", project_id="dsports-6ab79")
+        model = Model(endpoint="us-central1-aiplatform.googleapis.com", region="us-central1", project_id=gcp_proj)
         context = ""
         res = model.query_model_for_search_decision(query)
         return res
@@ -239,7 +239,7 @@ async def main():
 
     # if context:
         # Instantiate and query the model
-    model = Model(endpoint="us-central1-aiplatform.googleapis.com", region="us-central1", project_id="dsports-6ab79")
+    model = Model(endpoint="us-central1-aiplatform.googleapis.com", region="us-central1", project_id=gcp_proj)
     res = model.query_model_non_stream(query, context)
     print(res)    
 
