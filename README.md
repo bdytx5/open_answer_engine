@@ -1,4 +1,4 @@
-hire me @perplexity haha 
+hire me @perplexity haha @openai u too
 
 <img width="604" alt="Open Answer" src="https://github.com/user-attachments/assets/ba0a2dfd-78fc-4386-8d2d-06460ca5ac68">
 
